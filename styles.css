@@ -1,0 +1,30 @@
+body{
+    background-color: royalblue;
+    color: blue;
+}
+
+.class1{
+    background-color: aqua;
+}
+
+#oddItem{
+    background-color: grey;
+}
+.myDiv{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    padding: 40px;
+    margin: auto;
+    color: grey;
+    border-radius: 10px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    border: 10px solid white ;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.myDiv:hover{
+    border: 10px solid green ;
+    color: red;
+}
